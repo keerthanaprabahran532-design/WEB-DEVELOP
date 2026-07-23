@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tuliplock — A lock that opens like a bloom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <a href="#home" class="brand">
+    <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20 6C20 6 13 11 13 18C13 22 16 24.5 20 24.5C24 24.5 27 22 27 18C27 11 20 6 20 6Z" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M20 24.5V32" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="20" cy="18.5" r="2.4" stroke="currentColor" stroke-width="1.4"/>
+    </svg>
+    <span>Tuliplock</span>
+  </a>
+  <nav class="site-nav">
+    <a href="#home">Home</a>
+    <a href="#about">About&nbsp;Us</a>
+    <a href="#contact">Contact&nbsp;Us</a>
+  </nav>
+  <a href="#contact" class="btn btn-ghost nav-cta">Get Tuliplock</a>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- ============ HOME ============ -->
+  <section id="home" class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Dutch-engineered home security</p>
+      <h1>A lock that<br>opens like a<br><em>bloom.</em></h1>
+      <p class="lede">Tuliplock replaces the fumble of keys with a single unhurried motion. Brass core, weatherproof housing, and a keypad shaped by the same hands that used to press tulip bulbs — built in Haarlem, tested through six Dutch winters.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Order a Tuliplock — €249</a>
+        <a href="#how" class="btn btn-text">See how it opens ↓</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>0.6s</dt><dd>petal-to-open</dd></div>
+        <div><dt>IP65</dt><dd>weather rating</dd></div>
+        <div><dt>6&nbsp;yr</dt><dd>brass warranty</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero-stage" aria-hidden="true">
+      <svg class="bloom-svg" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="210" cy="210" r="150" class="stage-ring"/>
+        <g class="bloom-core">
+          <rect x="176" y="230" width="68" height="86" rx="10" class="petal petal-base"/>
+          <circle cx="210" cy="255" r="9" class="keyhole-dot"/>
+          <rect x="205" y="255" width="10" height="26" rx="3" class="keyhole-stem"/>
+        </g>
+        <g class="petal-group">
+          <path class="petal petal-1" d="M210 232C210 232 150 200 150 148C150 112 178 92 210 92C242 92 270 112 270 148C270 200 210 232 210 232Z"/>
+        </g>
+        <g class="petal-group petal-rot-1">
+          <path class="petal petal-2" d="M210 232C210 232 150 200 150 148C150 112 178 92 210 92C242 92 270 112 270 148C270 200 210 232 210 232Z"/>
+        </g>
+        <g class="petal-group petal-rot-2">
+          <path class="petal petal-3" d="M210 232C210 232 150 200 150 148C150 112 178 92 210 92C242 92 270 112 270 148C270 200 210 232 210 232Z"/>
+        </g>
+        <g class="petal-group petal-rot-3">
+          <path class="petal petal-4" d="M210 232C210 232 150 200 150 148C150 112 178 92 210 92C242 92 270 112 270 148C270 200 210 232 210 232Z"/>
+        </g>
+        <g class="petal-group petal-rot-4">
+          <path class="petal petal-5" d="M210 232C210 232 150 200 150 148C150 112 178 92 210 92C242 92 270 112 270 148C270 200 210 232 210 232Z"/>
+        </g>
+      </svg>
+      <p class="stage-caption">Tap to unlock</p>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="features">
+    <div class="section-head">
+      <p class="eyebrow">What's inside the housing</p>
+      <h2>Three parts, one motion.</h2>
+    </div>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <svg viewBox="0 0 48 48" class="feature-icon" aria-hidden="true"><rect x="10" y="14" width="28" height="24" rx="4"/><path d="M17 14v-2a7 7 0 0 1 14 0v2"/></svg>
+        <h3>Petal-fold keypad</h3>
+        <p>Five brass leaves sit flush against the door until you tap once — then they fold outward to reveal the code pad. No screen to smudge, no batteries to check monthly.</p>
+      </article>
+      <article class="feature-card">
+        <svg viewBox="0 0 48 48" class="feature-icon" aria-hidden="true"><path d="M24 6l16 7v10c0 10-7 17-16 19-9-2-16-9-16-19V13z"/></svg>
+        <h3>Solid brass cylinder</h3>
+        <p>Machined from a single billet, not stamped sheet metal. It darkens with age the way a good doorknob should, and it shrugs off the salt air that kills most smart locks in two winters.</p>
+      </article>
+      <article class="feature-card">
+        <svg viewBox="0 0 48 48" class="feature-icon" aria-hidden="true"><rect x="14" y="4" width="20" height="40" rx="4"/><line x1="20" y1="38" x2="28" y2="38"/></svg>
+        <h3>One-tap handoff</h3>
+        <p>Send a guest key from the app in the time it takes to type a name. It expires itself — no follow-up reminder to revoke access after the dog-sitter leaves.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section id="how" class="how">
+    <div class="section-head light">
+      <p class="eyebrow">The unlock sequence</p>
+      <h2>How a Tuliplock opens</h2>
+    </div>
+    <ol class="steps">
+      <li>
+        <span class="step-index">01</span>
+        <h3>Approach</h3>
+        <p>The lock senses your phone or fob from about a metre out and wakes the cylinder — nothing visible happens yet.</p>
+      </li>
+      <li>
+        <span class="step-index">02</span>
+        <h3>Tap the bloom</h3>
+        <p>Press the brass face once. The five petals fold open in under a second, the way a tulip opens over a warm morning, sped up.</p>
+      </li>
+      <li>
+        <span class="step-index">03</span>
+        <h3>Turn and go</h3>
+        <p>The cylinder disengages, the door turns like any mechanical lock, and the petals close themselves behind you.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="about-media" aria-hidden="true">
+      <svg viewBox="0 0 300 360" class="about-svg">
+        <defs>
+          <linearGradient id="fieldGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#2C4A38"/>
+            <stop offset="1" stop-color="#12241C"/>
+          </linearGradient>
+        </defs>
+        <rect width="300" height="360" fill="url(#fieldGrad)"/>
+        <g class="field-rows" stroke="#C99A48" stroke-opacity="0.35">
+          <line x1="0" y1="120" x2="300" y2="120"/>
+          <line x1="0" y1="170" x2="300" y2="170"/>
+          <line x1="0" y1="220" x2="300" y2="220"/>
+          <line x1="0" y1="270" x2="300" y2="270"/>
+        </g>
+      </svg>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow">About Tuliplock</p>
+      <h2>Built by two locksmiths and a bulb farmer's daughter.</h2>
+      <p>Tuliplock started in 2019 in a shed behind a bulb farm outside Haarlem. Reinier and Femke Voss had spent a decade rekeying locks for a security firm and kept coming back to the same complaint: every "smart" lock they installed died within two winters of North Sea weather, or asked homeowners to trust a subscription they didn't want.</p>
+      <p>Their neighbor Ingrid, who ran the family tulip fields, showed them how a bulb's outer petals fold back to protect the bud through frost, then open on their own schedule once it's safe. That folding motion became the mechanism, not the metaphor — the petal-fold keypad is a direct copy of it, patented in 2021.</p>
+      <p>Every Tuliplock is still assembled by hand in a workshop that shares a wall with the original bulb shed. We test each cylinder through a real Dutch winter before it ships.</p>
+      <div class="about-facts">
+        <div><dt>2019</dt><dd>Founded outside Haarlem</dd></div>
+        <div><dt>3</dt><dd>People on the bench</dd></div>
+        <div><dt>11,000+</dt><dd>Locks in Dutch doors today</dd></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="section-head">
+      <p class="eyebrow">Contact Us</p>
+      <h2>Ask before you order, or after.</h2>
+      <p class="lede">We answer our own phone. If your Tuliplock sticks in a frost, call the number below before you call anyone else.</p>
+    </div>
+
+    <div class="contact-grid">
+      <form class="contact-form" id="contact-form">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Jordan Alders" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@email.com" required>
+        </label>
+        <label>
+          <span>What do you need?</span>
+          <select name="topic">
+            <option>Order a Tuliplock</option>
+            <option>Installation help</option>
+            <option>Warranty / repair</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" placeholder="Tell us about your door — width, current lock, anything unusual." required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-note" id="form-note" role="status"></p>
+      </form>
+
+      <div class="contact-plate">
+        <div class="plate-row">
+          <span class="plate-label">Workshop</span>
+          <span class="plate-value">Kleverlaan 12, 2015 Haarlem, Netherlands</span>
+        </div>
+        <div class="plate-row">
+          <span class="plate-label">Phone</span>
+          <span class="plate-value">+31 23 555 0142</span>
+        </div>
+        <div class="plate-row">
+          <span class="plate-label">Email</span>
+          <span class="plate-value">hello@tuliplock.example</span>
+        </div>
+        <div class="plate-row">
+          <span class="plate-label">Hours</span>
+          <span class="plate-value">Mon–Fri, 09:00–17:00 CET</span>
+        </div>
+        <div class="plate-serial">TL-2024-HRLM</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a href="#home" class="brand brand-footer">
+    <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20 6C20 6 13 11 13 18C13 22 16 24.5 20 24.5C24 24.5 27 22 27 18C27 11 20 6 20 6Z" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M20 24.5V32" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="20" cy="18.5" r="2.4" stroke="currentColor" stroke-width="1.4"/>
+    </svg>
+    <span>Tuliplock</span>
+  </a>
+  <p>&copy; 2024 Tuliplock. Assembled in Haarlem, Netherlands.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
